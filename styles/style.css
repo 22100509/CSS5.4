@@ -26,6 +26,7 @@ ul {
   gap: 16px;
   width: 240px;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .purpleLi {
@@ -39,6 +40,7 @@ li {
 .sectionOne {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .frame {
@@ -68,6 +70,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .boxOneP {
@@ -89,6 +92,7 @@ li {
   width: 100%;
   border-bottom: 1px solid #ccd3e0;
   padding-bottom: 24px;
+  flex-wrap: wrap;
 }
 
 .boxTwoPurple {
@@ -107,6 +111,8 @@ li {
   border-left: 1px solid #000000;
   border-bottom: 1px solid #dd2590;
   border-right: 1px solid #155eef;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .sectionTwo {
@@ -119,6 +125,7 @@ li {
   font-size: 24px;
   max-width: 488px;
   width: 100%;
+  display: flex;
 }
 
 .boxP {
@@ -126,6 +133,7 @@ li {
   font-size: 14px;
   max-width: 488px;
   width: 100%;
+  display: flex;
 }
 
 .boxFour {
@@ -136,6 +144,7 @@ li {
   border: 1px solid #40d;
   background: #ede6fc;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .boxThreeP {
@@ -152,11 +161,12 @@ li {
 
 .boxFive {
   display: flex;
-  gap: 16px;
+  justify-content: space-between;
   padding: 116px 24px 16px 24px;
   align-items: flex-end;
   border-radius: 8px;
   border: 1px solid #004fe3;
+  flex-wrap: wrap;
 }
 
 .boxFiveP {
